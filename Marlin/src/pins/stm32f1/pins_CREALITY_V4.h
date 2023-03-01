@@ -233,6 +233,8 @@
 
 #elif ENABLED(FYSETC_MINI_12864_2_1)
 
+#define NO_CONTROLLER_CUSTOM_WIRING_WARNING
+
   #ifndef NO_CONTROLLER_CUSTOM_WIRING_WARNING
     #error "CAUTION! FYSETC_MINI_12864_2_1 and clones require wiring modifications. See 'pins_CREALITY_V4.h' for details. Define NO_CONTROLLER_CUSTOM_WIRING_WARNING to suppress this warning."
   #endif
